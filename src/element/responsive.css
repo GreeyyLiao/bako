@@ -1,0 +1,100 @@
+.mobile-headerLamsi {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.desktop-headerLamsi {
+  font-size: 4rem;
+  font-weight: 900;
+}
+.mobile-textLamsi {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.desktop-textLamsi {
+  font-size: 1.3em;
+}
+.mobile-coreLamsi {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 2vw;
+  column-gap: 2vw;
+}
+.desktop-coreLamsi {
+  padding: 4vw;
+  column-gap: 4vw;
+}
+.mobile-fotoLamsi:nth-child(1) {
+  display: none;
+}
+.mobile-fotoLamsi:nth-child(2) {
+  height: 60vw;
+}
+.desktop-fotoLamsi {
+  margin-bottom: 2vw;
+}
+.mobile-fotoLamsi {
+  margin-bottom: 5vw;
+}
+.mobile-button {
+  font-size: 0.8rem;
+  width: 20vw;
+  height: 10vw;
+}
+.desktop-button {
+  width: 10vw;
+  height: 3vw;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* paksi */
+.mobile-headerPaksi {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.desktop-headerPaksi {
+  font-size: 4rem;
+  font-weight: 900;
+}
+.mobile-textPaksi {
+  font-size: 0.9rem;
+  font-weight: 400;
+  max-width: 60vw;
+  margin-bottom: 7vw;
+}
+.desktop-textPaksi {
+  font-size: 1.1em;
+  max-width: 32vw;
+}
+.mobile-corePaksi {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 2vw;
+}
+.desktop-corePaksi {
+  padding: 3vw;
+}
+.mobile-bagan1 {
+  display: none;
+}
+.desktop-bagan1 {
+}
+.mobile-bagan2 {
+  width: 70vw;
+}
+.desktop-bagan1 {
+}
+.mobile-styleTextPaksi {
+  display: flex;
+  justify-content: center;
+}
+.desktop-styleTextPaksi {
+}
+.mobile-fotoPaksi:nth-child(1) {
+  height: 50vw;
+  margin-bottom: 4vw;
+}
+.desktop-fotoPaksi:nth-child(1) {
+  width: auto;
+  height: 20vw;
+}

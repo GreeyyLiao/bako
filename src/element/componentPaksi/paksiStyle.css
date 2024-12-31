@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --hitam: #000;
+  --coklat: #8d493a;
+  --putih: #f5f5f5;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-500px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(500px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.containerPaksi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("C:/Users/VICTUS/TembakauKu/src/assets/1440x810.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: fadeIn 1s ease-out;
+  height: 100vh;
+}
+.headerPaksi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.2vw;
+  animation: slideInFromLeft 1s ease-out;
+}
+.judulTembakauPaksi {
+  color: var(--hitam);
+  animation: scaleUp 0.8s ease-out;
+  animation-delay: 0.2s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+.judulPaksiPaksi {
+  color: var(--coklat);
+  animation: scaleUp 0.8s ease-out;
+  animation-delay: 0.4s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+.corePaksi {
+  display: flex;
+  justify-content: center;
+  column-gap: 4vw;
+  align-items: center;
+  animation: slideInFromRight 1s ease-out;
+  animation-delay: 0.6s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+.textPaksi {
+  text-align: center;
+  font-weight: 800;
+  color: var(--putih);
+  animation: slideInFromLeft 1s ease-out;
+  animation-delay: 0.8s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+.textPaksi:nth-child(1) {
+  text-align: justify;
+}
+.fotoPaksi {
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.fotoPaksi:nth-child(2) {
+  width: auto;
+  height: 25vw;
+}
+.styleGambarPaksi {
+  display: flex;
+  justify-content: center;
+  animation: fadeIn 1s ease-out;
+  animation-delay: 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+.bagan2 {
+  margin-top: 8vw;
+}
